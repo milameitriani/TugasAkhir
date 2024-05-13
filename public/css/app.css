@@ -1,0 +1,29 @@
+.page-link, .pointer {
+    cursor: pointer;
+}
+
+.form-group.is-invalid .custom-tagify, .form-group.is-invalid .form-control {
+    border-color: #d63939;
+}
+.form-group.is-invalid .custom-tagify.tagify--focus, .form-group.is-invalid .form-control:focus {
+    box-shadow:0 0 0 .25rem rgba(214, 57, 57, .250);
+}
+.form-group.is-invalid .invalid-feedback {
+    display: block;
+}
+
+.custom-tagify {
+    /*--tag-pad:  1rem;*/
+    padding: 0 !important;
+}
+.custom-tagify .tagify__input {
+    margin: 3px;
+}
+.custom-tagify .tagify__input::before {
+    margin: 3px 0;
+}
+.custom-tagify.tagify--focus {
+    border-color: #90b5e2;
+    outline:0;
+    box-shadow:0 0 0 .25rem rgba(32,107,196,.25);
+}
